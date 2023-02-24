@@ -1,0 +1,281 @@
+body{
+  background-color: #000000;
+}
+.container-fluid{
+  padding: 0;
+  background-color: #f5f5f5;
+}
+.pics{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:500px;
+  height: 350px;
+  border-radius: 50px;
+  border-style: solid;
+}
+.logo
+{
+  border-radius: 50%;
+  width: 110px;
+  height:100px;
+}
+.navbar-brand{
+  font-size:1.8rem;
+  font-family: 'Noto Serif', serif;
+}
+.nav-link{
+  font-size: 1.2rem;
+  font-family: 'Roboto', sans-serif;
+}
+.social-icon {
+  margin: 20px 10px;
+  font-size: 2rem;
+
+}
+.red-color{
+  color:#FF00FF;
+}
+.blue-color{
+  color:#4267B2;
+}
+.cyan-color{
+  color: #00acee;
+}
+.footer{
+  background-color: 	#17202A;
+  color: 	#FFFFFF;
+  padding-left: 200px;
+}
+.row{
+  padding-top: 50px;
+  padding-right: 60px;
+  padding-bottom: 50px;
+  padding-left: 130px;
+  font-family: 'Lato', sans-serif;
+}
+.pic{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:1100px;
+  height: 500px;
+  border-radius: 15px;
+  margin-top: 15px;
+  margin-bottom: 25px;
+  transition: all ease 0.3s;
+}
+.pic:hover{
+  transform: scale(1.1);
+}
+.founder{
+  border-radius: 50%;
+  width: 200px;
+  height:300px;
+  transition: all ease 0.3s;
+}
+.founder:hover{
+  transform: scale(1.2);
+}
+.col-4{
+  padding-left: 150px;
+}
+.para{
+  padding-left: 400px;
+}
+.about{
+  padding-left: 20;
+  color:#F0FFF0;
+  font-size: 1.2rem;
+  padding: 20px;
+}
+@media (min-width:392px) and (max-width: 576px) {
+  #title{
+    text-align: center;
+  }
+  .navbar-brand{
+    font-size: 1.4rem;
+  }
+  .m{
+    font-size:1.4rem;
+  }
+  .pic{
+    max-width: 100%;
+    height:auto;
+  }
+  .about{
+    font-size:0.8rem;
+    text-align: center;
+  }
+  .row{
+    padding-left: 25px;
+    padding-right: 0;
+  }
+  .col-4{
+    padding-left: 0;
+    padding-top: 80px;
+  }
+  .col-8{
+    padding-left: 50px;
+  }
+  .footer{
+    padding-left: 40px;
+    padding-bottom: 0;
+    font-size: 1rem;
+  }
+  .para{
+    padding-left:25px;
+    font-size: 0.8rem;
+  }
+  .social{
+    padding-top:  50px;
+    font-size: 1.5rem;
+  }
+  .social-icon{
+    margin-top: 0;
+    font-size: 1.5rem;
+  }
+  .h{
+    font-size:1.5rem;
+  }
+}
+@media (max-width: 392px) {
+  #title{
+    text-align: center;
+  }
+  .navbar-brand{
+    font-size: 1.2rem;
+  }
+  .m{
+    font-size:1.4rem;
+  }
+  .pic{
+    max-width: 100%;
+    height:auto;
+  }
+  .about{
+    font-size:0.8rem;
+    text-align: center;
+  }
+  .row{
+    padding-left: 25px;
+    padding-right: 0;
+  }
+  .col-4{
+    padding-left: 0;
+    padding-top: 80px;
+  }
+  .col-8{
+    padding-left: 50px;
+  }
+  .footer{
+    padding-left: 40px;
+    padding-bottom: 0;
+    font-size: 1rem;
+  }
+  .para{
+    padding-left:25px;
+    font-size: 0.8rem;
+  }
+  .social{
+    padding-top:  50px;
+    font-size: 1.5rem;
+  }
+  .social-icon{
+    margin-top: 0;
+    font-size: 1.5rem;
+  }
+  .h{
+    font-size:1.5rem;
+  }
+}
+/* @media (max-width: 576px) {
+  .pics {
+    width: 100%;
+    height: auto;
+
+  }
+  .logo {
+    width: 80px;
+    height: 70px;
+  }
+  .navbar-brand {
+    font-size: 1.5rem;
+  }
+  .nav-link {
+    font-size: 1rem;
+  }
+  .social-icon {
+    margin: 10px 5px;
+    font-size: 1.5rem;
+  }
+  .footer {
+    padding-left: 20px;
+  }
+  .row {
+    padding: 20px;
+  }
+  .pic {
+    width: 100%;
+    height: auto;
+    border-radius: 0;
+  }
+  .founder {
+    width: 120px;
+    height: 200px;
+  }
+  .col-4 {
+    padding-left: 20px;
+  }
+  .para {
+    padding-left: 20px;
+  }
+  .about {
+    font-size: 1rem;
+    padding: 10px;
+  }
+} */
+
+/* Medium devices (576px - 768px) */
+@media (min-width: 576px) and (max-width: 768px) {
+  .pics {
+    width: 90%;
+    height: auto;
+  }
+  .logo {
+    width: 90px;
+    height: 80px;
+  }
+  .navbar-brand {
+    font-size: 1.7rem;
+  }
+  .nav-link {
+    font-size: 1.2rem;
+  }
+  .social-icon {
+    font-size: 1.7rem;
+  }
+  .row {
+    padding: 30px;
+  }
+  .pic {
+    width: 90%;
+    height: auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  .founder {
+    width: 150px;
+    height: 250px;
+  }
+  .col-4 {
+    padding-left: 50px;
+  }
+  .para {
+    padding-left: 50px;
+  }
+  .about {
+    font-size: 1.2rem;
+    padding: 15px;
+  }
+}
